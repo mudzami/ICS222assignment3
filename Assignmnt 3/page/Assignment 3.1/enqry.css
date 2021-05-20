@@ -1,0 +1,54 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: blue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: zero;
+ }
+ 
+ .container {
+     width: 400px;
+     background-color: whitesmoke;
+     border-radius: 4px;
+     overflow: hidden;
+ }
+ 
+ .header {
+     background-color: gray;
+     padding: 10px 20px;
+ }
+ 
+ .form {
+     padding: 20px 40px;
+ }
+ 
+ .frm {
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     position: relative;
+ }
+ 
+ .frm label {
+     padding-right: 50px;
+ }
+ 
+ .frm input {
+     width: 100%;
+     padding: 10px;
+     border-color: #d8d1d1;
+ }
+ 
+ .tan label {
+     text-overflow: inherit;
+     display: flex;
+     position: fixed;
+ }
+ 
+ .tan me {
+     text-align: left;
+ }

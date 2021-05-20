@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assignment 3.1/enqry.css ">
+    <script type="text/javascript">
+        function validate() {
+            var username = document.getElementById('username');
+            var numb = document.getElementById('number');
+            var email = document.getElementById('email')
+
+            if (username.value == "" || numb.value == "" || email.value == "") {
+                alert("no blank values allowed");
+            } else {
+
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Your respose is much appreciated</h3>
+        </div>
+        <div class="form">
+            <form>
+                <div class="contains">
+                    <div class="frm">
+                        <label id="username" for="name">Name                   :</label>
+                        <input type="text" name="username" placeholder="name required" required><br>
+                    </div>
+                    <div class="frm">
+                        <label for="number">Number :</label>
+                        <input id="number" type="text" name="num" placeholder="phone number"><br>
+                    </div>
+                    <div class="frm">
+                        <label for="username">Email                   :</label>
+                        <input id="email" type="email" name="email" placeholder="Example: h190189n@hit.ac.zw" required><br>
+                    </div>
+                    <p>
+                        <div class="tan">
+                            <div class="frm">
+                                <label for="username">Enquiry                   :</label>
+                                <textarea class="response" name="response" rows="10" cols="8"></textarea>
+
+                            </div>
+                        </div>
+                    </p>
+                    <div class="frm">
+                        <div class="me">
+                            <input onclick="validate()" type="submit">
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
